@@ -2,3 +2,20 @@ Create an implement a js object called building
 think of 3 properties that a building should have and add them to the object.  
 
 No html /css required today.  
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="building.js"></script>
+</body>
+</html>
+
+console.log(building.floor);
+console.log(building.walls);
+console.log(person.roof);
