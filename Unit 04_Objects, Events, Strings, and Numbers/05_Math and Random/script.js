@@ -16,3 +16,12 @@ function takeAbsoluteValue() {
 }
 
 // Make another function for takeAbsoluteValue
+
+
+function takeRound() {
+    let number = +document.getElementById("input1").value;
+
+    let round = Math.round(number);
+    document.getElementById("result").innerHTML = round;
+
+}
