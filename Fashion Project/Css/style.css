@@ -1,4 +1,4 @@
-.BAN{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,3 +8,38 @@
     text-decoration: none;
 
 }
+
+.body{
+    height: 100%;
+}
+
+/*Header*/
+.menu-btn{
+    color: #424144;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background-color: #6a87a5;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .logo h1{
+    color: #424144;
+    border-bottom: 4px solid#895570;
+
+
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
