@@ -27,19 +27,76 @@
     align-items: center;
     position: sticky;
     z-index: 999;
-    background-color: #6a87a5;
+    background-color: rgb(64, 64, 64);
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
 }
 
 .navbar .logo h1{
-    color: #424144;
-    border-bottom: 4px solid#895570;
-
-
+    color: #eae5d9;
+    border-bottom: 4px solid#fab18b;
 }
 
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: rgb(191, 191, 191);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.navbar .menu li .active{
+    border-bottom: 4px solid rgb(191, 191, 191);
+
+} 
+
+.navbar .menu li a i{
+    color: rgb(191, 191, 191)
+
+}
+
+.navbar .menu li a:hover{
+    border-bottom: 4px solid rgb(191, 191, 191);
+
+}
+
+/* Content */
+
+.content{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:rgba(0, 0, 0, 0)
+    height
+}
+
+.content h1{
+    font-size: 40px;
+}
+
+.content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
